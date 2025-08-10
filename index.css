@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header button {
+/* header button {
   background-color: beige;
   padding: 0px 10px;
   border-radius: 8px;
@@ -37,7 +37,7 @@ header #user {
   display: flex;
   align-items: center;
   gap: 10px;
-}
+} */
 
 .banner {
   background-image: url("./lights-car-vehicle-244206.jpg");
