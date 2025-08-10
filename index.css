@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header button {
+  background-color: beige;
+  padding: 0px 10px;
+  border-radius: 8px;
+  height: 40px;
+  border: none;
+}
+header input {
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+header #user {
+  background-color: rgb(77, 77, 77);
+  border-radius: 50%;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner {
+  background-image: url("./lights-car-vehicle-244206.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin: auto;
+}
+.banner img {
+  width: 500px;
+  margin-top: 10%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.banner h1 {
+  color: white;
+}
+
+.section-details {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.btn-container {
+  text-align: center;
+  margin: 10px;
+}
+.btn-container button {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.btn-container button a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
